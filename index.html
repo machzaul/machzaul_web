@@ -1,121 +1,201 @@
 <!DOCTYPE html>
-<html>
-<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
-  
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
-  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script><link href="https://feeldreams.github.io/gakerasa/style.css" rel="stylesheet" type="text/css" />
-  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
-  
-<head>
-<title>cewekku yang tersayang</title>
-<link rel="icon" type="image/x-icon" href="https://www.palingit.com/favicon.ico">
-<meta name="description" content="HTML Replit Coding">
-<!-- 
-  Made with love by Rayys!
-  
-     Blog: www.feeldream.id
-     Instagram: @rayyarrr
-     TikTok: @rayy4r
-     Email: rayyarr73@gmail.com
-     
-  Thanks to all <3
--->
-</head>
-<style>
-:root {
---ukuran-teks: 16px;
---gaya-font: 'Nunito Sans', sans-serif;
-}
-</style>
-<body>
-	
-   <!-- Ganti Audio di sini -->
-   <audio src="https://feeldreams.github.io/tentangkita/tentangkita.mp3" id="linkmp3" class="sembunyi"></audio>
-   
-   <div id="bodyblur"><img src="" id="wallpaper"/></div>
-   
-   <div id='Content'>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="layar-dalam">
+        <div class="logo">
+          <a href=""class="putih" >machzaul</a>
+          <a href=""class="hitam" >machzaul</a>
+        </div>
+        <div class="menu">
+          <a href="#" class="tombol-menu">
+            <span class="garis"></span>
+            <span class="garis"></span>
+            <span class="garis"></span>
+          </a>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutus">About</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="layar-penuh">
+      <header id="home">
+        <div class="overlay"></div>
+        <video autoplay muted loop>
+          <source src="Air Bangis - Pasaman Barat ( Sam Kolder Inspired ) (online-video-cutter.com).mp4" type="video/mp4" />
+        </video>
+        <div class="intro">
+          <h3>machzaul website</h3>
+          <p>
+            This is my first website while at the Sumatra Institute of Technology, enjoy
+          </p>
+          <p>
+            <a target="_blank" href="https://www.instagram.com/machzaulsyah/?hl=id" class="tombol" >MORE INFO</a>
+          </p>
+        </div>
+      </header>
+      <main>
+        <section id="aboutus">
+          <div class="layar-dalam">
+            <h3>About</h3>
+            <p class="ringkasan">
+              perkenalkan nama saya machzaul harmansyah, lahir di air bangis dan alumni man 1 pasaman barat
+            </p>
+            <div class="konten-isi">
+              <p>
+                sekarang saya menjalani perkuliahan di institut teknologi sumatera prodi teknik informatika 
+              </p>
+            <button >
+              <a href="#contact">lebih lanjut</a>
+            </button>
+            </div>
+          </div>
+        </section>
+        <section class="abuabu" id="support">
+          <div class="layar-dalam support">
+            <div>
+              <img src="keyboard-line.png" />
+              <h6>keyboard</h6>
+              <p>
+                disini aksesoris yang saya gunakan dalam mengetik yaitu dengan menggunakan keyboard red dragon k617
+              </p>
+            </div>
+            <div>
+              <img src="macbook-line.png" />
+              <h6>laptop</h6>
+              <p>
+                laptop yang saya gunakan yaitu acer nitro 5
+              </p>
+            </div>
+            <div>
+              <img src="mouse.png" />
+              <h6>mouse</h6>
+              <p>
+                mouse yang saya gunakan yaitu mouse merek fantech venom
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="gallery">
+          <div><img src="potoaul.jpeg" /></div>
+          <div><img src="potobatiekpplk.jpeg" /></div>
+          <div><img src="potolabor2.jpeg" /></div>
+          <div><img src="potopadangkencang.jpeg" /></div>
+          <div><img src="potolabor1.jpeg" /></div>
 
-     <div id="ftAwal">
-       <!-- Stiker Pembuka -->
-       <img src="https://feeldreams.github.io/heart.png" id="ftoAwal"/>
-     </div>
-
-     <div id="loveIn">
-       <!-- Tombol LOVE --><label class='lovein'>❤️</label>
-     </div>
-     <p id="ket">Sentuh LOVEnya!</p>
-
-     <div class="kumpulan">
-     	<!-- Kumpulan Background -->
-     	<img src="https://feeldreams.github.io/gakerasa/3.jpg" id="wallpaper1"/>
-     	<img src="https://feeldreams.github.io/gakerasa/1.jpg" id="wallpaper2"/>
-         <img src="https://feeldreams.github.io/gakerasa/2.jpg" id="wallpaper3"/>
-         <img src="https://feeldreams.github.io/gakerasa/4.jpg" id="wallpaper4"/>
-         <img src="https://feeldreams.github.io/gakerasa/5.jpg" id="wallpaper5"/>
-         <img src="https://feeldreams.github.io/gakerasa/6.jpg" id="wallpaper6"/>
-         <img src="https://feeldreams.github.io/gakerasa/9.jpg" id="wallpaper7"/>
-         <img src="https://feeldreams.github.io/gakerasa/10.jpg" id="wallpaper8"/>
-         
-         <!-- Foto/Stiker Akhir -->
-         <img src="https://feeldreams.github.io/asalkamutau/heartbroken.png" id="ftoAkhir"/>
-     </div>
-     
-     <div><blockquote id='bq'>
-       <p id="kalimat" style="text-align:center"></p>
-     </blockquote></div>
-     
-     <!-- Tombol Kirim Pesan -->
-     <div id="Tombol">
-       <a id="By">&#128140; Balas</a>
-     </div>
-
-   </div>
-
-<!-- Jangan Edit Bagian Ini --><script>
-  const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2500, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); audio = new Audio('' + linkmp3.src); ftganti=0;fungsi=0;fungsiAwal=0;function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-heart-broken"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart-broken"); if (heartArr.length > 100) {heartArr[0].remove()}},100);Content.style = "opacity:1;margin-top:14vh"; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageHeight: 80,}); 
-  const inip = []; const iniwp = []; iden = 1; iniwp[1] = wallpaper1.src; wallpaper.src = iniwp[1]; iniwp[2] = wallpaper2.src; iniwp[3] = wallpaper3.src; iniwp[4] = wallpaper4.src; iniwp[5] = wallpaper5.src; iniwp[6] = wallpaper6.src; iniwp[7] = wallpaper7.src; iniwp[8] = wallpaper8.src; 
-
-inip[1] = "kita emang udah ga mungkin<br>sama - sama lagi";
-inip[2] = "tapi..";
-inip[3] = "aku cuma mau bilang,";
-inip[4] = "Terima kasih telah menjadi teman chat ku selama ini.";
-inip[5] = " Aku tahu, mungkin sulit bagi kamu untuk saling mengenal hanya via chat saja,";
-inip[6] = "akan tetapi rasanya kita tidak memiliki kecocokan.";
-inip[7] = "Aku merasa tidak tertarik untuk bertemu maupun melanjutkan hubungan ini.";
-inip[8] = "Tetapi aku berharap, bahwa kamu bisa temukan seseorang dengan segera mungkin.";
-inip[9] = "mungkin aku adalah orang<br>terburuk yang pernah kamu temui";
-inip[10] = "Aku memiliki banyak hal yang harus aku kerjakan";
-inip[11] = "sekarang aku hanya mau fokus pada hal itu";
-inip[12] = "Terima kasih sudah memahami aku ya";
-inip[13] = "semoga yang lain cocok samamu";
-inip[14] = "Terimaksih AKS2 47 U. :)";
-
-totalPesan = 14; //Input total pesan (slide) di sini ya!
-
-function waktumuncul(){
-	  setTimeout(kalimatakhir,5600);
-      setTimeout(kalimatakhir,8700);
-      setTimeout(kalimatakhir,9500);
-      setTimeout(kalimatakhir,11300);
-      setTimeout(kalimatakhir,14800);
-      setTimeout(kalimatakhir,18400);
-      setTimeout(kalimatakhir,21300);
-      setTimeout(kalimatakhir,23100);
-      setTimeout(kalimatakhir,27100);
-      setTimeout(kalimatakhir,30100);
-      setTimeout(kalimatakhir,33100);
-      setTimeout(kalimatakhir,36100);
-      setTimeout(kalimatakhir,38100);
-      setTimeout(kalimatakhir,40100);
-
-}
-</script>
-<script src="https://feeldreams.github.io/tentangkita/script.js"></script>
-<!-- Sampai Sini -->
-</body>
+        </section>
+        <section class="quote">
+          <div class="layar-dalam">
+            <p>Sesungguhnya Allah tidak akan mengubah keadaan suatu kaum sebelum mereka mengubah keadaan diri mereka sendiri. Dan apabila Allah menghendaki keburukan terhadap suatu kaum, maka tak ada yang dapat menolaknya dan tidak ada pelindung bagi mereka selain Dia..</p>
+          </div>
+        </section>
+        
+        <section class="abuabu" id="blog">
+          <div class="layar-dalam">
+            <h3>Lastest Blog</h3>
+            <p class="ringkasan">
+              blog terakhir pada halaman ini
+            </p>
+            <div class="blog">
+              <div class="area">
+                <div
+                  class="gambar"
+                  style="background-image: url('pulaupanjang.jpg')"
+                ></div>
+                <div class="text">
+                  <article>
+                    <h4><a href="#">What About pulau panjang?</a></h4>
+                    <p>
+                      pulau yang pertamakali yang saya kunjungi.
+                    </p>
+                  </article>
+                </div>
+              </div>
+              <div class="area">
+                <div
+                  class="gambar"
+                  style="background-image: url('pulapigago.jpg')"
+                ></div>
+                <div class="text">
+                  <article>
+                    <h4><a href="#">What About pulau pigago?</a></h4>
+                    <p>
+                      pulau yang wajib dikunjungi waktu lebaran pastinya.
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="abuabu" id="support">
+          <div class="layar-dalam support">
+            <div>
+              <a target="_blank" href="https://www.facebook.com/machzaul.syah.754?mibextid=ZbWKwL"><img src="facebook-circle-fill.png" /></a>
+              <a href="https://www.facebook.com/machzaul.syah.754?mibextid=ZbWKwL"><h6>machzaul syah</h6></a>
+              <p>
+                klik untuk mampir ke akun fb saya
+              </p>
+            </div>
+            <div>
+              <a target="_blank" href="https://www.instagram.com/machzaulsyah/?hl=id"><img src="instagram-line.png" /></a>
+              <a href="https://www.instagram.com/machzaulsyah/?hl=id"><h6>machzaulsyah</h6></a>
+              <p>
+                klik untuk mampir ke akun instagram saya
+              </p>
+            </div>
+            <div>
+              <a target="_blank" href="https://youtube.com/@mhs7565"><img src="youtube-fill.png" /></a>
+              <a href="https://youtube.com/@mhs7565"><h6>mhs</h6></a>
+              <p>
+                klik untuk mampir ke akun youtube saya
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="contact">
+        <div class="layar-dalam">
+          <div>
+            <a target="_blank" href="https://g.co/kgs/JcQrVn"><h5>info</h5></a>
+            website ini dibuat dengan html,css dan sedikit javascript
+          </div>
+          <div>
+            <a target="_blank" href="https://wa.me/6285694508422"><h5>contact</h5></a>
+            my number whatsapp click at contact behind info
+          </div>
+          <div>
+            <a target="_blank" href="https://www.instagram.com/machzaulsyah/?hl=id"><h5>help</h5></a>
+            rate website ini dengan rate 1-100 di komentar ig
+          </div>
+          <div>
+            <a target="_blank" href="https://maps.app.goo.gl/ZRGYm6xd4ZTWgEe58"><h5>linkmap</h5></a>
+            jlan patimura depan bakso yogi airbangis pasaman barat
+          </div>
+        </div>
+        <div class="layar-dalam">
+          <div class="copyright">&copy; 2022 machzaul website</div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
